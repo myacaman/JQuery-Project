@@ -3,7 +3,7 @@ $(function(){
 	$('h3').css('color', '#000066');
 
 	// Call by ClassName
-	$('.text').fadeOut(3000).fadeIn(3000);
+	$('.square').fadeOut(3000).fadeIn(3000);
 	
 	// Call by ID
 	$("#tableimage" )
