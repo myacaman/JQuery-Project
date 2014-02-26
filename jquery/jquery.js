@@ -1,6 +1,7 @@
 $(function(){
 	// Call by TagName
 	$('h3').css('color', '#000066');
+  $('h3').css('text-align', 'left');
 
 	// Call by ClassName
 	$('.square').fadeOut(3000).fadeIn(3000);
@@ -23,5 +24,8 @@ $(function(){
   	$("ol").append("<li> They are fearless and creative when it comes to User Experience.</li>");
 
   	// JQuery UI Call 
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+    heightStyle: "content",
+    collapsible: true
+  });
 });
