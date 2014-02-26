@@ -18,6 +18,8 @@ $(function(){
   	});
 
   	// Manipulation Call
+    $("h2 + p").append(" Click on each title to see more information about each stage.")
+
   	$("ol").append("<li> They are fearless and creative when it comes to User Experience.</li>");
 
   	// JQuery UI Call 
